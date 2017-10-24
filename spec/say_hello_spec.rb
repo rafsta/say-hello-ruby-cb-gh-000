@@ -13,7 +13,6 @@ describe "say_hello" do
   end
 end
 
-def say_hello
-  puts ("Hello Kent Beck!")
-  puts ("Hello Ruby Programmer!")
+def say_hello(name = "Ruby Programmer")
+  puts ("Hello #{name}!")
 end
