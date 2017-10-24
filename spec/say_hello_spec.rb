@@ -14,5 +14,5 @@ describe "say_hello" do
 end
 
 def say_hello
-  puts ("Hello Kent Programmer!")
+  puts ("Hello Ruby Programmer!")
 end
